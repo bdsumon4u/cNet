@@ -25,7 +25,7 @@ public class Receiver extends Thread {
             data.close();
             in.close();
         } catch (Exception e) {
-            e.printStackTrace();
+            //
         }
     }
 }

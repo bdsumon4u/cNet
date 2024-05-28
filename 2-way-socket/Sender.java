@@ -27,7 +27,7 @@ public class Sender extends Thread {
             data.close();
             out.close();
         } catch (Exception e) {
-            e.printStackTrace();
+            //
         }
     }
 }
